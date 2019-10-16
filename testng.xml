@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  
+   <test name="Add Person">
+    <classes>
+      <class name="com.schneider.hr.systems.testcases.Add_Person"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="InterCompanyTransfer">
+    <classes>
+      <class name="com.schneider.hr.systems.testcases.InterCompanyTransfer"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test">
+    <classes>
+      <class name="com.schneider.hr.systems.testcases.AssignmentChange"/>
+    </classes>
+   </test>
+ 
+</suite> <!-- Suite -->
